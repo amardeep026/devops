@@ -16,6 +16,23 @@ A repository is a collection of files and directories that are stored together.l
 ## Commands
 git add . (or filename )
 git log 
-git log --
+git log --oneline
 
+## git ignore file : will not save files mentioned in it but git ignore will be tracked.
+eg .env file, api keys, payment gateweay for TF =  *.tfstate
+*.tfstate.*
+*.tfvars
+GIT doesnt keep track of empty folder
+to track empty folder but needed in future we .gitkeep file 
 
+# Branches
+ 
+git branch - This command lists all the branches in the current repository.
+git branch bug-fix - This command creates a new branch called bug-fix.
+git switch bug-fix - This command switches to the bug-fix branch.
+git log - This command shows the commit history for the current branch.
+git switch master - This command switches to the master branch.
+git switch -c dark-mode - This command creates a new branch called dark-mode. the -c flag is used to create a new branch.
+git checkout orange-mode - This command switches to the orange-mode branch.
+Commit before switching to a branch
+Go to .git folder and checkout to the HEAD file
