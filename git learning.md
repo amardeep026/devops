@@ -36,3 +36,6 @@ git switch -c dark-mode - This command creates a new branch called dark-mode. th
 git checkout orange-mode - This command switches to the orange-mode branch.
 Commit before switching to a branch
 Go to .git folder and checkout to the HEAD file
+git branch -m <old-branch-name> <new-branch-name> # branch rename 
+git branch -d <branch-name> # delete branch 
+git ls-tree --name-only HEAD # to list files in branch
