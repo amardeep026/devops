@@ -16,6 +16,11 @@ A repository is a collection of files and directories that are stored together.l
 ## Commands
 git add . (or filename )
 git log 
-git log --
+git log --oneline
 
-
+## git ignore file : will not save files mentioned in it but git ignore will be tracked.
+eg .env file, api keys, payment gateweay for TF =  *.tfstate
+*.tfstate.*
+*.tfvars
+GIT doesnt keep track of empty folder
+to track empty folder but needed in future we .gitkeep file 
