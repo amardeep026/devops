@@ -51,5 +51,6 @@ git tag -a messaged -m "testing tag" b55bf3d
 
 ## remote Repo
 
-git push -u origin main  # to check remote repos 
+git push -u origin main  # to check remote repos origin is considered as remote repo
 git remote add origin git@github.com:amardeep026/devops.git   # setup remote linking 
+git rm --cached config.yml # (then do commit, without add .) remove file remotely but will be present locally
