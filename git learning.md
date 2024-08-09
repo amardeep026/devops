@@ -1,3 +1,5 @@
+[](https://docs.chaicode.com/diff-stash-and-tags/)
+
 # Git and Github
 - Git is a version control system that allows you to manage the history of your code, track changes to your files and to collaborate with others. Version control systems are essential for software development.
 
@@ -38,3 +40,16 @@ Go to .git folder and checkout to the HEAD file
 git branch -m <old-branch-name> <new-branch-name> # branch rename 
 git branch -d <branch-name> # delete branch 
 git ls-tree --name-only HEAD # to list files in branch
+
+###### Stash is a way to save your changes in a temporary location. It is useful when you want to make changes to a file but don’t want to commit them yet. You can then come back to the file later and apply the changes.
+git stash
+git stash save "work in progress on X feature"
+git stash list
+###### Tags are a way to mark a specific point in your repository. They are useful when you want to remember a specific version of your code or when you want to refer to a specific commit.
+git tag <tag-name>
+git tag -a messaged -m "testing tag" b55bf3d
+
+## remote Repo
+
+git push -u origin main  # to check remote repos 
+git remote add origin git@github.com:amardeep026/devops.git   # setup remote linking 
