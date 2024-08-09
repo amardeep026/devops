@@ -53,3 +53,4 @@ git tag -a messaged -m "testing tag" b55bf3d
 
 git push -u origin main  # to check remote repos 
 git remote add origin git@github.com:amardeep026/devops.git   # setup remote linking 
+git push -u origin main  # used to setup for upstream branch  origin = remote name, main =local branch name 
