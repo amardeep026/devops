@@ -54,3 +54,4 @@ it involves logical addressing : IP (Each packet has sender & receiver IP Addres
 >Examples: Ethernet cables, hubs, and physical network interfaces.
 
 
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)[:    Amardeep Singh Raina ](https://www.linkedin.com/in/amardeep-singh-raina-438073252/)
